@@ -1,22 +1,21 @@
 {
-  "name": "react",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "\"This is a test directory to learn git, node and React\"",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/soumen2222/React.git"
-  },
-  "author": "soumen",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/soumen2222/React/issues"
-  },
-  "homepage": "https://github.com/soumen2222/React#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
