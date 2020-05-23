@@ -327,21 +327,19 @@
     <script>
         $(document).ready(function() {
             $("#loginButton").click(function() {
-                if ($("#loginButton").children("span").hasClass('fa-sign-in')) {
-                    $('#loginModal').modal('show')
-                }
-            });
-            $("#reserveButton").click(function() {
-                $('#reserveTableModal').modal('show')
+                $('#loginModal').modal('toggle')
             });
             $("#closeModal").click(function() {
                 $('#loginModal').modal('toggle')
             });
-            $("#closeReserveModal").click(function() {
-                $('#reserveTableModal').modal('toggle')
-            });
             $("#cancelModal").click(function() {
                 $('#loginModal').modal('toggle')
+            });
+            $("#reserveButton").click(function() {
+                $('#reserveTableModal').modal('toggle')
+            });
+            $("#closeReserveModal").click(function() {
+                $('#reserveTableModal').modal('toggle')
             });
             $("#cancelReserveModal").click(function() {
                 $('#reserveTableModal').modal('toggle')
